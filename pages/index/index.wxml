@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<!--1、小程序数据绑定-->
+<view>Hello {{name}}</view>
+<view>我的年龄是:{{age}}</view>
+
+
+<!--2、列表展示   wx:for-->
+<view>学生信息：</view>
+<view wx:for="{{students}}">学号:{{item.id}},姓名:{{item.name}},年龄:{{item.age}}</view>
